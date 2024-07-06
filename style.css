@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wave-container{
+    width: 25vw;
+    height: 25vh;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+.wave{
+    border: 1px solid red;
+    border-radius:50%;
+    width: 5vw;
+    height: 5vh;
+    position: absolute;
+    transform:roatatex(50deg);
+   
+}
+.wave1{
+    width: 5vw;
+    height: 5vh;
+animation:updown 1s infinite ease-out;
+
+}.wave2{
+    width: 7vw;
+    height: 7vh;
+    animation:updown 1s infinite  0.1s ease-out;
+
+}.wave3{
+    width: 9vw;
+    height: 9vh;
+    animation:updown 1s infinite  0.2s ease-out;
+
+}.wave4{
+    width: 11vw;
+    height: 11vh;
+    animation:updown 1s infinite 0.3s  ease-out;
+
+}.wave5{
+    width: 13vw;
+    height: 13vh;
+    animation:updown 1s infinite 0.4s ease-out;
+
+}.wave6{
+    width: 15vw;
+    height: 15vh;
+    animation:updown 1s infinite  0.5s ease-out;
+
+}.wave7{
+    width: 17vw;
+    height: 17vh;
+    animation:updown 1s infinite  0.6s ease-out;
+
+}.wave8{
+    width: 19vw;
+    height: 19vh;
+    animation:updown 1s infinite  0.7s ease-out;
+
+}.wave9{
+    width: 21vw;
+    height: 21vh;
+    animation:updown 1s infinite 0.8s ease-out;
+
+}.wave10{
+    width: 23vw;
+    height: 23vh;
+    animation:updown 1s infinite  0.9s ease-out;
+
+}.wave11{
+    width: 25vw;
+    height: 25vh;
+    animation:updown 1s infinite  0.10s ease-out;
+
+}.wave12{
+    width: 27vw;
+    height: 27vh;
+    animation:updown 1s infinite  0.11s ease-out;
+
+}.wave13{
+    width: 29vw;
+    height: 29vh;
+    animation:updown 1s infinite 0.12s  ease-out;
+
+}.wave14{
+    width: 31vw;
+    height: 31vh;
+    animation:updown 1s infinite  0.13s ease-out;
+
+}.wave15{
+    width: 33vw;
+    height: 33vh;
+    animation:updown 1s infinite  0.14s ease-out;
+
+}
+@keyframes updown {
+    0%{
+        transform: rotatex(50deg) translatex(0%);
+    }
+    50%{
+        transform: rotatex(50deg) translatey(-50px);
+        border: 2px solid white ;
+    }
+    
+    100%{
+        transform: rotatex(50deg) translatey(-50%);
+    }
+    
+    
+
+    
+}
